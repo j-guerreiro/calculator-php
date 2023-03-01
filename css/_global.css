@@ -20,6 +20,7 @@ body {
   align-items: center;
   flex-flow: row wrap;
   box-shadow: 3px 3px 12px 6px rgb(52, 51, 57);
+  margin: 150px 150px;
 }
 
 .container-display {
