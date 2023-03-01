@@ -3,10 +3,13 @@
 }
 
 body {
-  background-color: rgb(238, 238, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container-calculadora {
+.container-calculator {
+  z-index: 1;
   border: 5px dotted black;
   border-radius: 15px;
   width: 300px;
@@ -14,6 +17,7 @@ body {
   background-color: rgb(58, 66, 66);
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
   box-shadow: 3px 3px 12px 6px rgb(52, 51, 57);
 }
@@ -33,7 +37,7 @@ body {
   margin-right: 1em;
 }
 
-.container-teclado {
+.container-keyboard {
   display: flex;
   color: aqua;
   flex-flow: row wrap;
@@ -55,4 +59,12 @@ body {
 
 .btn:hover {
   border: 0.1px solid aqua;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
 }
